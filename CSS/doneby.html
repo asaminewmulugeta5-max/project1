@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salale University</title>
+    <link rel="stylesheet" href="../CSS/doneby.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+    <header class="site-header">
+        <a class="brand" href="#"><i class="fa-solid fa-graduation-cap"></i><span>Salale University</span></a>
+
+        <!-- mobile menu (checkbox hack, no JavaScript) -->
+        <input type="checkbox" id="nav-toggle" class="nav-toggle">
+        <label for="nav-toggle" class="menu-icon"><i class="fa-solid fa-bars"></i></label>
+        <nav class="main-nav">
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+            <a href="#research" class="hide-small">Research</a>
+            <a href="#news">News</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero" id="research">
+            <div class="hero-content">
+                <h1>Welcome to<br>Salale University</h1>
+                <p>Education, Research and Innovation</p>
+                <a href="#about" class="button">Explore More</a>
+            </div>
+            <div class="dots"><span class="active"></span><span></span><span></span></div>
+        </section>
+
+        <section class="about" id="about">
+            <div class="about-text">
+                <h2><span class="desktop-only">About Our University</span><span class="small-only">About Us</span></h2>
+                <p>
+                    <span class="desktop-only">We are committed to academic excellence, research and community service. Our mission is to develop skilled, innovative and ethical professionals.</span>
+                    <span class="tablet-only">We are committed to providing quality education, research and community service.</span>
+                    <span class="mobile-only">We are committed to providing quality education for a better future.</span>
+                </p>
+                <a href="#" class="button about-button">Learn More</a>
+            </div>
+            <picture>
+                <source media="(max-width: 600px)" srcset="../../dark.jpg">
+                <source media="(max-width: 991px)" srcset="../sluu.jpg">
+                <img src="../../ijo.jpg" alt="Salale University students">
+            </picture>
+        </section>
+
+        <section class="programs" id="programs">
+            <div class="heading">
+                <h2>Our Programs</h2>
+                <a href="#" class="text-link desktop-only">View All Programs <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="program-grid">
+                <a href="#" class="card"><i class="fa-solid fa-laptop"></i>Computer<br>Science</a>
+                <a href="#" class="card"><i class="fa-solid fa-chart-column"></i>Business</a>
+                <a href="#" class="card"><i class="fa-solid fa-gear"></i>Engineering</a>
+                <a href="#" class="card"><i class="fa-solid fa-book-open"></i>Management</a>
+                <a href="#" class="card"><i class="fa-solid fa-database"></i>Economics</a>
+                <a href="#" class="card"><i class="fa-solid fa-diagram-project"></i>IT</a>
+            </div>
+        </section>
+
+        <section class="statistics">
+            <h2><span class="mobile-only">Statistics</span><span class="full-title">University Statistics</span></h2>
+            <div class="stat-grid">
+                <div class="stat"><i class="fa-solid fa-graduation-cap"></i><strong>5,000+</strong><span>Students</span></div>
+                <div class="stat"><i class="fa-solid fa-users"></i><strong>300+</strong><span>Lecturers</span></div>
+                <div class="stat"><i class="fa-solid fa-building-columns"></i><strong>25+</strong><span>Departments</span></div>
+                <div class="stat"><i class="fa-solid fa-trophy"></i><strong>15+</strong><span>Years</span></div>
+            </div>
+        </section>
+
+        <section class="news" id="news">
+            <div class="heading">
+                <h2>
+                    <span class="desktop-only">News &amp; Events</span>
+                    <span class="tablet-only">Latest News &amp; Events</span>
+                    <span class="mobile-only"><i class="fa-solid fa-bullhorn"></i> Latest News</span>
+                </h2>
+                <a href="#" class="text-link tablet-only">View All <i class="fa-solid fa-arrow-right"></i></a>
+            </div>
+            <div class="news-layout">
+                <div class="news-grid">
+                    <article class="news-card">
+                        <img src="../FRONT-END/Computer Tips_ Learn, Practice, Solve (1).png" alt="Research Conference">
+                        <div>
+                            <h3>Research Conference</h3>
+                            <p>Nov 10, 2026</p>
+                            <a href="#" class="read-more mobile-only">Read More <i class="fa-solid fa-arrow-right"></i></a>
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <img src="../FRONT-END/Salale University Computer Science Portrait.png" alt="Technology Exhibition">
+                        <div>
+                            <h3>Technology Exhibition</h3>
+                            <p>Nov 15, 2026</p>
+                        </div>
+                    </article>
+                    <article class="news-card">
+                        <img src="../Farda Abba Gadaa Celebration (1).png" alt="New Academic Year">
+                        <div>
+                            <h3>New Academic Year</h3>
+                            <p>Dec 01, 2026</p>
+                        </div>
+                    </article>
+                </div>
+
+                <aside class="join-card">
+                    <i class="fa-solid fa-graduation-cap join-icon desktop-only"></i>
+                    <i class="fa-solid fa-users join-icon tablet-only"></i>
+                    <div>
+                        <h3>Join Our University</h3>
+                        <p>
+                            <span class="desktop-only">Be part of our academic community.</span>
+                            <span class="tablet-only">Start your academic journey with us.</span>
+                        </p>
+                    </div>
+                    <a href="#" class="button button-small">Apply Now</a>
+                </aside>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+        <div class="footer-brand">
+            <a class="brand" href="#"><i class="fa-solid fa-graduation-cap"></i><span>Salale University</span></a>
+            <p class="desktop-only">Education | Research | Community Service</p>
+        </div>
+
+        <nav class="footer-inline tablet-only">
+            <a href="#">Home</a><a href="#about">About</a><a href="#programs">Programs</a><a href="#news">News</a><a href="#contact">Contact</a>
+        </nav>
+
+        <div class="footer-column desktop-only">
+            <h3>Quick Links</h3>
+            <a href="#">Home</a>
+            <a href="#about">About</a>
+            <a href="#programs">Programs</a>
+        </div>
+        <div class="footer-column desktop-only">
+            <h3>Resources</h3>
+            <a href="#news">News</a>
+            <a href="#news">Events</a>
+            <a href="#contact">Contact</a>
+        </div>
+        <div class="footer-column desktop-only">
+            <h3>Follow Us</h3>
+            <div class="social">
+                <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                <a href="#" aria-label="Twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+        </div>
+
+        <a href="#" class="footer-contact mobile-only"><i class="fa-solid fa-envelope"></i> Contact Us</a>
+
+        <p class="copyright">
+            <span class="desktop-only">© 2026 Salale University. All Rights Reserved.</span>
+            <span class="small-only">© 2026 Salale University</span>
+        </p>
+    </footer>
+</body>
+</html>
